@@ -1,24 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
- int main()
- {
-     int n, A, B, C;
-     int sum=0;
+int main(){
+    int i, j, A, B, C;
+   
 
-
-     scanf("%d" "%d", &A, &B);
-
-     for(n>=A && n<=B)
-
-     {
-
-     for (i=a; i<=b, i++)
-
-        sum=sum+i;
+    scanf("%d%d", &i, &j);
 
 
-     printf("Sum is %d", C);
-     }
-     return 0;
- }
+    A = i * (i + 1) / 2;
+    B = j * (j + 1) / 2;
+
+    C = B - A + i;
+
+    printf("%d\n", C);
+    return 0;
+}
 
