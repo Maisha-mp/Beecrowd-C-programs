@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-int main()
-{
-
-    int A;
+ 
+int main() {
+ 
+   
+   int A;
     char B;
 
        for(A=97 , B= 'a'; A<=122 , B<= 'z'; A++ , B++)
@@ -14,7 +14,5 @@ int main()
 
 
     }
-
-
     return 0;
 }
