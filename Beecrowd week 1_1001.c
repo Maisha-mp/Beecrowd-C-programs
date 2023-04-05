@@ -1,15 +1,15 @@
 #include <stdio.h>
-
+ 
 int main() {
+ 
+ int A,B,X;
+ 
+    scanf("%d",&A);
+    scanf("%d",&B);
 
-   
-  float A,R;
+    X= A+B;
 
-    scanf("%1f",&R);
-
-    A= 3.14159*R*R;
-
-    printf("A= %.4f \n",A);
-
+    printf("X = %d\n",X);
+    
     return 0;
 }
