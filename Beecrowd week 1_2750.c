@@ -1,52 +1,28 @@
 #include<stdio.h>
-
- int main()
- {
-     int j;
+int main()
+{
+	int j;
 
       printf("---------------------------------------\n");
 
-      printf("| decimal   |  octal  |  Hexadecimal  |\n");
+      printf("|  decimal  |  octal  |  Hexadecimal  |\n");
 
 
      printf("---------------------------------------\n");
 
-    for(j=0; j<=7; j++)
+
+    for(j=0; j<=15; j++)
 
     {
 
 
 
-       printf("|      %d    |    %o    |       %X       |\n", j, j, j);
-
-    }
-
-    for(j=8; j<=9; j++)
-
-    {
-
-
-
-       printf("|      %d    |   %o    |       %X       |\n", j, j, j);
-
-    }
-
-    for(j=10; j<=15; j++)
-
-    {
-
-
-
-       printf("|     %d    |   %o    |       %X       |\n", j, j, j);
+       printf("|     %2d    |   %2o    |       %X       |\n", j, j, j);
 
     }
 
 
       printf("---------------------------------------\n");
+      return 0;
+}
 
-
-
-
-  return 0;
-
-    }
